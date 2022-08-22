@@ -104,9 +104,9 @@ function App() {
           </div>
         </nav>
 
-        <div className="relative" id="home">
-          <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
-          <div className="absolute bottom-10 w-full flex justify-center items-center">
+        <div className="relative w-full min-h-screen " id="home">
+          <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline"/>
+          <div className="absolute  w-full flex justify-center items-center bottom-[calc(100vh_-_97vh)]">
             <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
               <p className="text-white">Press and drag to orbit</p>
             </div>
